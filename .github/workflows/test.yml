@@ -31,6 +31,7 @@ jobs:
         python -m pip install pytest
         python -m pip install pytest-django
         python -m pip install django
+        python -m pip install freezegun
         pip install django-rest-authtoken
         # if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Lint with flake8
